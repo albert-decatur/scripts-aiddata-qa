@@ -5,7 +5,7 @@ Scripts for AidData quality assessment.
 These are largely generic and can apply to any TSV.
 The purposes of the scripts are to:
 
-* working with Geonames
+* work with Geonames
   * pull geonames fields from their API by geonameid
   * check that geonames feature type and precision code combos follow user supplied rules
 * check cardinality of fields
@@ -23,7 +23,8 @@ The purposes of the scripts are to:
 * duplicates
   * find which fields contribute the most to records being non-duplicates
 
-Prerequisites:
+Prerequisites
+=============
 
 * mawk
 * GNU parallel

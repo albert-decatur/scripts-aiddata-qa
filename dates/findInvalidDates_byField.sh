@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# find text in a list of date fields in a TSV that are not valid dates and replace with blanks
+# report text in a list of date fields in a TSV that are not valid dates
 # args: 1) TSV to get dates from, 2) double quoted list of fields by number to search for dates in
 # output is a two column TSV to stdout with 1) field name, 2) invalid date value
 # NB: dates are assumed to be dd/mm/yyyy
